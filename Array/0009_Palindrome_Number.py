@@ -1,6 +1,6 @@
 #Leetcode 9
 #Palindrome Number
-#Topic=Math
+#Topic=Array
 
 class Solution:
     def isPalindrome(self,x:int)->bool:

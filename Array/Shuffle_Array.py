@@ -1,0 +1,12 @@
+class Solution:
+    def shuffle(self,nums,n):
+        result=[]
+        for i in range(n):
+            result.append(nums[i])
+            result.append(nums[i+n])
+        return result
+
+numbers=[2,5,1,3,4,7]
+n=3
+obj=Solution()
+print(obj.shuffle(numbers,n))
